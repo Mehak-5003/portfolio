@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <h1
+          class="navbar-brand nes-text is-primary"
+          style="padding-bottom: 0px"
+        >
+          TS
+        </h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main -->
+    <div class="container-sm self-info home__header">
+      <picture class="image-fluid rounded-circle profile-image">
+        <source
+          media="(max-width: 400px)"
+          srcset="./assets/images/profile_ilcccj_c_scale,w_200.jpg"
+        />
+        <source
+          media="(max-width: 640px)"
+          srcset="./assets/images/profile_ilcccj_c_scale,w_640.jpg"
+        />
+        <img src="./assets/images/profile.jpg" alt="self-image" />
+      </picture>
+      <div class="container-sm py-5">
+        <h3 class="fs-1 mb-3">Hi, I am Tavneet Singh</h3>
+        <p class="lead fs-6 fw-light">
+           Crafting Code, Capturing Moments: Showcasing Web Development and Photography.
+        </p>
+      </div>
+    </div>
+    <!-- recent-projects -->
+    <div class="recent-projects">
+      <div class="d-flex flex-row justify-content-between px-5 pt-4">
+        <p>Recent Projects</p>
+        <p><a href="./pages/projects.html">View all</a></p>
+      </div>
+      <div
+        class="container-fluid d-flex flex-wrap gap-5 justify-content-center p-5 pt-2"
+      >
+        <div class="card" style="width: 24rem">
+          <picture class="card-img-top project-img">
+            <source
+              media="(max-width: 400px)"
+              srcset="./assets/images/church/church_200.jpg"
+            />
+            <source
+              media="(max-width: 640px)"
+              srcset="./assets/images/church/church_640.jpg"
+            />
+            <img src="./assets/images/church.jpg" alt="church" />
+          </picture>
+          <div class="card-body">
+            <h5 class="card-title">PixelSculpt Landscapes</h5>
+            <p class="card-text">
+              Sculpting nature's beauty through captivating web designs and photographic landscapes
+            </p>
+            <a href="./pages/projects.html" class="btn btn-primary"
+              >Know More</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 24rem">
+          <picture class="card-img-top project-img">
+            <source
+              media="(max-width: 400px)"
+              srcset="./assets/images/planner/planner_200.jpg"
+            />
+            <source
+              media="(max-width: 640px)"
+              srcset="./assets/images/planner/planner_640.jpg"
+            />
+            <img src="./assets/images/planner.jpg" alt="planner" />
+          </picture>
+          <div class="card-body">
+            <h5 class="card-title">CodeCanvas Portraits</h5>
+            <p class="card-text">
+              Transforming personalities into digital artistry, blending coding finesse with photographic intimacy.
+            </p>
+            <a href="./pages/projects.html" class="btn btn-primary"
+              >Know More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid text-center mt-5">
+      <p>Made with ⚡ by TS</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

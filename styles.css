@@ -1,0 +1,179 @@
+/* GLOBAL STYLES */
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/********** 
+footer 
+**********/
+@media (max-width: 1000px) {
+  footer > p {
+    font-size: 14px;
+  }
+}
+
+/* 
+HOMEPAGE
+*/
+.profile-image {
+  /* height: 100%; */
+  max-height: 350px;
+  max-width: 300px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 500px;
+}
+
+.recent-projects {
+  background-color: #edf7fa;
+}
+
+.home__header {
+  display: flex;
+  grid-gap: 20px;
+  padding: 50px 20px;
+}
+
+/********** 
+projects page 
+**********/
+
+.project-img {
+  height: 250px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/********** 
+about me page 
+**********/
+.self-info {
+  grid-gap: 20px;
+}
+.my-education,
+.my-experience {
+  padding: 32px;
+  margin-top: 64px;
+}
+
+.my-education > div,
+.my-experience > div {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.my-education .card-text,
+.my-experience .card-text {
+  color: gray;
+}
+
+.my-education {
+  background-color: #ff6464;
+}
+
+.my-education h5,
+.my-experience h5 {
+  font-size: 18px !important;
+}
+
+.my-experience {
+  background-color: #edf7fa;
+}
+
+/********** 
+contact page 
+**********/
+
+.contact__form {
+  max-width: 700px;
+  padding: 0px 32px;
+}
+
+.contact__form > form {
+  padding: 0px;
+}
+
+.contact__map {
+  height: 400px;
+  margin-top: 40px;
+}
+
+@media (max-width: 1000px) {
+  /* HOMEPAGE */
+
+  .self-info {
+    /* background-color: blue; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+  }
+
+  .self-info h3 {
+    font-size: 18px;
+  }
+
+  .self-info p {
+    font-size: 14px !important;
+  }
+
+  .recent-projects h5 {
+    font-size: 16px !important;
+  }
+
+  .recent-projects p {
+    font-size: 12px !important;
+  }
+
+  .recent-projects a {
+    font-size: 12px !important;
+  }
+
+  /********** 
+  about me page 
+  **********/
+
+  .my-education,
+  .my-experience {
+    padding: 12px;
+  }
+
+  .my-education h5,
+  .my-experience h5 {
+    font-size: 16px !important;
+  }
+
+  .my-education p,
+  .my-experience p {
+    font-size: 14px !important;
+  }
+
+  /********** 
+  projects page 
+  **********/
+
+  .projects {
+    padding: 16px !important;
+  }
+
+  .projects h5 {
+    font-size: 16px !important;
+  }
+
+  .projects p {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact__name {
+    flex-direction: column;
+  }
+}
